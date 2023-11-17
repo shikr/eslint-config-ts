@@ -1,0 +1,23 @@
+{
+  "name": "@sabier/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "My typescript eslint configuration files",
+  "main": "index.js",
+  "repository": "https://github.com/shikr/eslint-config-ts",
+  "author": "sabier",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "@typescript-eslint/eslint-plugin": ">=6.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": ">=6.2.1",
+    "typescript": ">=5.0.0"
+  }
+}
